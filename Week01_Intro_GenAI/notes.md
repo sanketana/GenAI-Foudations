@@ -1,5 +1,36 @@
 # Week 01: Introduction to Generative AI - Instructor Notes
 
+## Table of Contents
+
+- [Learning Objectives](#learning-objectives)
+- [Key Topics to Cover](#key-topics-to-cover)
+- [Discussion Points](#discussion-points)
+- [Additional Resources](#additional-resources)
+- [Understanding LLM Parameters](#understanding-llm-parameters)
+  - [Temperature](#temperature)
+  - [Top-p (Nucleus Sampling)](#top-p-nucleus-sampling)
+  - [Top-k](#top-k)
+  - [Presence Penalty](#presence-penalty)
+  - [Applying to a Real Question](#applying-to-a-real-question)
+  - [Summary Table](#summary-table)
+  - [Playground Experiment Suggestion](#playground-experiment-suggestion)
+  - [Final Takeaway](#final-takeaway)
+- [System Prompt](#system-prompt)
+  - [What is a System Prompt?](#what-is-a-system-prompt)
+  - [System Prompt Examples](#system-prompt-examples)
+  - [System Prompt vs. User Prompt](#system-prompt-vs-user-prompt)
+  - [How to Write Effective System Prompts](#how-to-write-effective-system-prompts)
+  - [Advanced System Prompt Techniques](#advanced-system-prompt-techniques)
+  - [Real-World Applications](#real-world-applications)
+- [Understanding Tokenisation](#understanding-tokenisation)
+  - [What are Tokens?](#what-are-tokens)
+  - [Token Counting Tools](#token-counting-tools)
+  - [Practical Tips](#practical-tips)
+- [Understanding Context Window](#understanding-context-window)
+  - [What is a Context Window?](#what-is-a-context-window)
+  - [Managing Context Window](#managing-context-window)
+  - [Practical Examples](#practical-examples)
+
 ## Learning Objectives
 - Dev Environment Setup
 - Account Creation
@@ -33,16 +64,16 @@
 
 ---
 
-# 🔧 Understanding LLM Parameters: 
+# Understanding LLM Parameters: 
 Temperature, Top-p, Top-k, and Presence Penalty
 
 Large Language Models (LLMs) like ChatGPT offer tunable parameters that significantly influence how responses are generated. Understanding these is key to getting the kind of output you want — whether factual, creative, diverse, or safe.
 
 ---
 
-## 🌡️ Temperature
+## Temperature
 
-**Controls**: Randomness in the model’s output  
+**Controls**: Randomness in the model's output  
 **Range**: 0 to 2 (commonly 0.2–1.0)
 
 | Low Temperature (0.2) | High Temperature (1.0) |
@@ -53,14 +84,14 @@ Large Language Models (LLMs) like ChatGPT offer tunable parameters that signific
 > "Write a birthday message for my 11-year-old niece who loves Harry Potter."
 
 - **Temp 0.2**:  
-  “Happy birthday! I hope you have a magical day filled with joy and fun. Best wishes.”
+  "Happy birthday! I hope you have a magical day filled with joy and fun. Best wishes."
 
 - **Temp 1.0**:  
-  “Wishing you a spellbinding birthday, young witch! May your cake be as sweet as a Honeydukes treat and your day more magical than a ride on the Hogwarts Express!”
+  "Wishing you a spellbinding birthday, young witch! May your cake be as sweet as a Honeydukes treat and your day more magical than a ride on the Hogwarts Express!"
 
 ---
 
-## 🎲 Top-p (Nucleus Sampling)
+## Top-p (Nucleus Sampling)
 
 **Controls**: How much of the probability mass to consider  
 **Range**: 0 to 1
@@ -83,7 +114,7 @@ With `top-p = 0.3`, only Vanilla and Chocolate would be considered.
 
 ---
 
-## 🔢 Top-k
+## Top-k
 
 **Controls**: The number of top most likely tokens to sample from  
 **Range**: 1 to infinity
@@ -95,7 +126,7 @@ In practice, GPT models often favor `top-p` over `top-k`.
 
 ---
 
-## 🚫 Presence Penalty
+## Presence Penalty
 
 **Controls**: How much to discourage using words already mentioned  
 **Range**: 0 to 2
@@ -104,47 +135,47 @@ In practice, GPT models often favor `top-p` over `top-k`.
 - **High**: Encourages introduction of new ideas and vocabulary
 
 ### 🧪 Example Prompt:
-> “List things to do in Paris.”
+> "List things to do in Paris."
 
 - **Presence Penalty = 0**:  
-  “See the Eiffel Tower, Eiffel Tower light show, Eiffel Tower view…”
+  "See the Eiffel Tower, Eiffel Tower light show, Eiffel Tower view…"
 
 - **Presence Penalty = 1.2**:  
-  “Visit the Eiffel Tower, explore the Louvre, cruise the Seine, eat croissants…”
+  "Visit the Eiffel Tower, explore the Louvre, cruise the Seine, eat croissants…"
 
 ---
 
-## 👩‍🏫 Applying to a Real Question
+## Applying to a Real Question
 
 ### 🎓 Prompt:
-> “Explain photosynthesis to a 12-year-old.”
+> "Explain photosynthesis to a 12-year-old."
 
 #### 🔥 Temperature
 - **Low (0.2)**:  
-  “Photosynthesis is the process by which green plants make food using sunlight, water, and carbon dioxide.”
+  "Photosynthesis is the process by which green plants make food using sunlight, water, and carbon dioxide."
 
 - **High (0.9)**:  
-  “Imagine plants as tiny chefs! They use sunlight, air, and water to whip up sugar — their energy snack!”
+  "Imagine plants as tiny chefs! They use sunlight, air, and water to whip up sugar — their energy snack!"
 
 #### 🎲 Top-p
 - **Low (0.3)**:  
-  “Photosynthesis is when plants make food using sunlight.”
+  "Photosynthesis is when plants make food using sunlight."
 
 - **High (0.95)**:  
-  “Plants are like solar panels. They grab sunlight, mix it with water and air, and cook up sugar to grow.”
+  "Plants are like solar panels. They grab sunlight, mix it with water and air, and cook up sugar to grow."
 
 #### 🚫 Presence Penalty
 Ask ChatGPT the same question again:
 
 - **Low**:  
-  “Photosynthesis is when plants use sunlight to make food. Plants use sunlight to convert water and carbon dioxide…”
+  "Photosynthesis is when plants use sunlight to make food. Plants use sunlight to convert water and carbon dioxide…"
 
 - **High**:  
-  “Photosynthesis is a special process where plants harness solar energy to create fuel. Instead of eating, they build sugar from sunlight.”
+  "Photosynthesis is a special process where plants harness solar energy to create fuel. Instead of eating, they build sugar from sunlight."
 
 ---
 
-## 🧠 Summary Table
+## Summary Table
 
 | Parameter         | Purpose                            | Low Value                        | High Value                            |
 |------------------|------------------------------------|----------------------------------|----------------------------------------|
@@ -155,10 +186,10 @@ Ask ChatGPT the same question again:
 
 ---
 
-## 🧪 Playground Experiment Suggestion
+## Playground Experiment Suggestion
 
 **Prompt**:
-> “Generate five unique business ideas for kids aged 10–13 during summer vacation.”
+> "Generate five unique business ideas for kids aged 10–13 during summer vacation."
 
 Try two versions in [OpenAI Playground](https://platform.openai.com/playground):
 
@@ -169,21 +200,21 @@ Compare how creative and diverse the results become.
 
 ---
 
-## ✅ Final Takeaway
+## Final Takeaway
 
-These parameters aren’t just for fun — they shape **tone, style, originality, and clarity**. Whether you're coding, writing a poem, teaching a concept, or brainstorming ideas, tuning them (or understanding how they're tuned) gives you more control over what the model generates.
+These parameters aren't just for fun — they shape **tone, style, originality, and clarity**. Whether you're coding, writing a poem, teaching a concept, or brainstorming ideas, tuning them (or understanding how they're tuned) gives you more control over what the model generates.
 
 Would you like a template to use these insights while building prompts or a cheatsheet PDF version?
 
 ---
 
-# 🤖 System Prompt
+# System Prompt
 
 The system prompt is a special instruction given to a language model that defines its role, behavior, and capabilities for the entire conversation. It's like giving the AI a "job description" that shapes how it responds to all your questions.
 
 ---
 
-## 🎯 What is a System Prompt?
+## What is a System Prompt?
 
 **System Prompt** = Instructions that tell the AI who it is and how to behave.
 
@@ -197,7 +228,7 @@ Think of it as the **"personality"** or **"role"** you're assigning to the AI be
 
 ---
 
-## 📝 System Prompt Examples
+## System Prompt Examples
 
 ### Example 1: Expert Role
 ```
@@ -223,7 +254,7 @@ Your writing style is engaging and descriptive.
 
 ---
 
-## 🎭 System Prompt vs. User Prompt
+## System Prompt vs. User Prompt
 
 ### System Prompt (Background Instructions)
 ```
@@ -242,7 +273,7 @@ The AI responds as a professional data scientist would to your specific question
 
 ---
 
-## 🛠️ How to Write Effective System Prompts
+## How to Write Effective System Prompts
 
 ### 1. **Define the Role Clearly**
 ```
@@ -270,67 +301,7 @@ The AI responds as a professional data scientist would to your specific question
 
 ---
 
-## 🧪 System Prompt Experiments
-
-### Experiment 1: Personality Test
-Try these different system prompts with the same user question:
-
-**User Question**: "What's the weather like today?"
-
-**System Prompt A**:
-```
-You are a cheerful weather reporter who loves making weather fun and exciting.
-```
-
-**System Prompt B**:
-```
-You are a serious meteorologist who provides precise, scientific weather information.
-```
-
-**System Prompt C**:
-```
-You are a grumpy weather person who complains about the weather.
-```
-
-### Experiment 2: Expertise Test
-**User Question**: "How do I make a cake?"
-
-**System Prompt A** (Chef):
-```
-You are a professional pastry chef with 20 years of experience.
-```
-
-**System Prompt B** (Home Cook):
-```
-You are a home cook who loves simple, practical recipes.
-```
-
-**System Prompt C** (Food Scientist):
-```
-You are a food scientist who explains the chemistry behind cooking.
-```
-
----
-
-## 📊 System Prompt Best Practices
-
-### ✅ Do's
-- **Be specific** about the role and expertise
-- **Include style guidelines** (formal, casual, technical)
-- **Set clear boundaries** and limitations
-- **Provide context** about the user's level
-- **Specify output format** if needed
-
-### ❌ Don'ts
-- **Don't be too vague** ("be helpful")
-- **Don't contradict yourself** in the prompt
-- **Don't make impossible demands** ("know everything")
-- **Don't forget to specify tone** and style
-- **Don't ignore the user's skill level**
-
----
-
-## 🔧 Advanced System Prompt Techniques
+## Advanced System Prompt Techniques
 
 ### 1. **Multi-Role System Prompts**
 ```
@@ -359,7 +330,7 @@ Always structure your responses with:
 
 ---
 
-## 🎯 Real-World Applications
+## Real-World Applications
 
 ### Code Review Assistant
 ```
@@ -396,7 +367,7 @@ Be encouraging but honest in your critiques.
 
 ---
 
-## ⚠️ System Prompt Limitations
+## System Prompt Limitations
 
 ### What System Prompts CAN'T Do
 - **Override model training** (can't make it forget basic knowledge)
@@ -413,7 +384,7 @@ Be encouraging but honest in your critiques.
 
 ---
 
-## 🧪 Hands-On Exercise
+## Hands-On Exercise
 
 ### Exercise: Create Your Own System Prompt
 
@@ -440,7 +411,7 @@ Avoid [LIMITATIONS].
 
 ---
 
-## ✅ Key Takeaways
+## Key Takeaways
 
 1. **System prompts** define the AI's role and behavior
 2. **Be specific** about expertise, style, and boundaries
@@ -451,13 +422,13 @@ Avoid [LIMITATIONS].
 
 Mastering system prompts is key to getting the most out of your AI interactions!
 
-# 🔤 Understanding Tokenisation
+# Understanding Tokenisation
 
 Tokenisation is the process of breaking down text into smaller units called "tokens" that language models can understand and process. This is a fundamental concept that affects how we interact with LLMs and manage costs.
 
 ---
 
-## 🎯 What are Tokens?
+## What are Tokens?
 
 **Tokens** are the basic units of text that language models process. They can be:
 - **Words**: "hello" = 1 token
@@ -477,7 +448,7 @@ Tokenisation is the process of breaking down text into smaller units called "tok
 
 ---
 
-## 💰 Why Tokens Matter
+## Why Tokens Matter
 
 ### Cost Implications
 - **OpenAI charges per token** (both input and output)
@@ -491,7 +462,7 @@ Tokenisation is the process of breaking down text into smaller units called "tok
 
 ---
 
-## 🔍 Tokenisation Rules
+## Tokenisation Rules
 
 ### English Text
 - **Average**: ~4 characters per token
@@ -507,7 +478,7 @@ Tokenisation is the process of breaking down text into smaller units called "tok
 
 ---
 
-## 🛠️ Token Counting Tools
+## Token Counting Tools
 
 ### OpenAI Tokenizer
 ```python
@@ -528,7 +499,7 @@ print(f"Token count: {token_count}")
 
 ---
 
-## 📝 Practical Tips
+## Practical Tips
 
 ### Reducing Token Usage
 1. **Be concise**: Remove unnecessary words
@@ -546,7 +517,7 @@ print(f"Token count: {token_count}")
 
 ---
 
-## 🧪 Tokenisation Experiment
+## Tokenisation Experiment
 
 Try this in the OpenAI Playground:
 
@@ -556,7 +527,7 @@ Try this in the OpenAI Playground:
 
 ---
 
-## 📊 Token Limits by Model
+## Token Limits by Model
 
 | Model | Context Window | Input Cost/1K | Output Cost/1K |
 |-------|----------------|---------------|----------------|
@@ -566,7 +537,7 @@ Try this in the OpenAI Playground:
 
 ---
 
-## ✅ Key Takeaways
+## Key Takeaways
 
 1. **Tokens ≠ Characters**: 1 word ≠ 1 token
 2. **Cost awareness**: Monitor token usage for budget management
@@ -578,13 +549,13 @@ Understanding tokenisation helps you write more efficient prompts and manage you
 
 ---
 
-# 🪟 Understanding Context Window
+# Understanding Context Window
 
 The context window (also called context length or token limit) is the maximum number of tokens a language model can process in a single conversation. This includes both the input (your prompt) and output (the model's response).
 
 ---
 
-## 🎯 What is a Context Window?
+## What is a Context Window?
 
 **Context Window** = The total number of tokens the model can "see" and remember in one conversation.
 
@@ -601,7 +572,7 @@ Think of it as the model's **working memory** - like how much information you ca
 
 ---
 
-## 🔄 How Context Window Works
+## How Context Window Works
 
 ### Input + Output = Total Context
 ```
@@ -622,7 +593,7 @@ Your Prompt (2K tokens) + Model Response (1K tokens) = 3K tokens used
 
 ---
 
-## 💡 Why Context Window Matters
+## Why Context Window Matters
 
 ### Real-World Impact
 - **Long documents**: Can't process entire books at once
@@ -637,7 +608,7 @@ Your Prompt (2K tokens) + Model Response (1K tokens) = 3K tokens used
 
 ---
 
-## 🛠️ Managing Context Window
+## Managing Context Window
 
 ### Strategies for Long Content
 
@@ -664,7 +635,7 @@ Step 3: Deep dive into important parts
 
 ---
 
-## 📝 Practical Examples
+## Practical Examples
 
 ### Example 1: Code Review
 **Problem**: Review a 10K-line codebase
@@ -693,7 +664,7 @@ Step 3: Deep dive into important parts
 
 ---
 
-## 🔍 Context Window vs. Memory
+## Context Window vs. Memory
 
 ### What Gets "Forgotten"
 - **Older messages** (first in, first out)
@@ -715,7 +686,7 @@ Strategy: Summarize or remove old content
 
 ---
 
-## 🧪 Context Window Experiment
+## Context Window Experiment
 
 Try this in the OpenAI Playground:
 
@@ -733,7 +704,7 @@ Try this in the OpenAI Playground:
 
 ---
 
-## 📊 Context Window Comparison
+## Context Window Comparison
 
 | Model | Context Window | Best For | Limitations |
 |-------|----------------|----------|-------------|
@@ -744,7 +715,7 @@ Try this in the OpenAI Playground:
 
 ---
 
-## ⚡ Optimization Tips
+## Optimization Tips
 
 ### For Short Context Windows (4K-8K)
 1. **Be concise** in your prompts
@@ -766,7 +737,7 @@ Try this in the OpenAI Playground:
 
 ---
 
-## ✅ Key Takeaways
+## Key Takeaways
 
 1. **Context window** = model's working memory limit
 2. **Input + output** = total token usage

@@ -2,11 +2,25 @@
 
 A comprehensive 12-week course on Generative AI fundamentals, designed to take you from zero to building production-ready GenAI applications.
 
-## 📚 Course Overview
+## Table of Contents
+
+- [Course Overview](#course-overview)
+- [Learning Objectives](#learning-objectives)
+- [Curriculum Structure](#curriculum-structure)
+- [Technology Stack](#technology-stack)
+- [Repository Structure](#repository-structure)
+- [Getting Started](#getting-started)
+- [Key Resources](#key-resources)
+- [Learning Path](#learning-path)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
+
+## Course Overview
 
 This repository contains a structured learning path for mastering Generative AI technologies, from basic LLM interactions to building sophisticated RAG (Retrieval-Augmented Generation) applications. The curriculum is designed for developers, data scientists, and AI enthusiasts who want to build practical GenAI solutions.
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By the end of this course, you will be able to:
 
@@ -17,7 +31,7 @@ By the end of this course, you will be able to:
 - **Integrate External Tools**: Connect your applications with real-world APIs and data sources
 - **Deploy Production Apps**: Deploy your GenAI applications to cloud platforms
 
-## 📋 Curriculum Structure
+## Curriculum Structure
 
 ### Phase 1: Foundations (12 Weeks)
 
@@ -36,7 +50,7 @@ By the end of this course, you will be able to:
 | 11 | Deployment | Cloud deployment strategies |
 | 12 | Capstone Project | Final project demonstration |
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **LLM APIs**: OpenAI GPT models, Claude, Gemini
 - **Frontend**: Streamlit for rapid UI development
@@ -45,7 +59,7 @@ By the end of this course, you will be able to:
 - **Deployment**: HuggingFace Spaces, Vercel
 - **Language**: Python
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 GenAI-Foundations/
@@ -72,7 +86,7 @@ Each week contains:
 - `homework.md` - Weekly assignments and practice
 - `preread.md` - Pre-reading materials and resources
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8+
@@ -94,14 +108,14 @@ pip install -r requirements.txt
 
 3. Follow the weekly progression through the curriculum
 
-## 📖 Key Resources
+## Key Resources
 
 - **Lesson Plans**: Detailed 12-week curriculum in `lesson_plans.md`
 - **Roadmap**: Overall learning journey in `roadmap.md`
 - **Weekly Notes**: Comprehensive instructor notes in each week's folder
 - **Code Examples**: Working implementations in each week's `code/` directory
 
-## 🎓 Learning Path
+## Learning Path
 
 This course follows a progressive learning approach:
 
@@ -110,7 +124,7 @@ This course follows a progressive learning approach:
 3. **Advanced Features** (Weeks 8-10): Function calling, external APIs, and polished UIs
 4. **Production Ready** (Weeks 11-12): Deployment and real-world applications
 
-## 🤝 Contributing
+## Contributing
 
 This is an educational repository. Feel free to:
 - Submit issues for improvements
@@ -118,11 +132,11 @@ This is an educational repository. Feel free to:
 - Share your completed projects
 - Suggest new topics or exercises
 
-## 📄 License
+## License
 
 This project is for educational purposes. Please respect the original authors and contributors.
 
-## 🆘 Support
+## Support
 
 For questions or issues:
 1. Check the weekly notes and homework files

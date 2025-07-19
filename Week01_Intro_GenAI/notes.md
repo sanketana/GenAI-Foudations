@@ -108,7 +108,7 @@ Suppose top 5 flavors ranked by popularity:
 5. Mango (5%)
 
 With `top-p = 0.95`, the model will consider only the top 4 (total = 95%) and **exclude** Mango.  
-With `top-p = 0.3`, only Vanilla and Chocolate would be considered.
+With `top-p = 0.3`, the model would consider tokens until the cumulative probability reaches at least 30%. Since Vanilla alone is 40% (which exceeds 30%), only Vanilla would be considered.
 
 > ✅ **Use top-p for flexible creativity.**
 

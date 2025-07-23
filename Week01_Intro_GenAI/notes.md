@@ -57,10 +57,6 @@
 - What are the potential risks and benefits?
 - How can we use GenAI responsibly?
 
-## Additional Resources
-- Research papers on generative models
-- Case studies of GenAI applications
-- Ethical guidelines for AI development 
 
 ---
 

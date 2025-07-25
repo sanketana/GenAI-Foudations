@@ -50,3 +50,5 @@ MANIFEST
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+folder_bootstrap_script.sh

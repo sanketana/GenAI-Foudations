@@ -2,7 +2,8 @@
 
 ## Table of Contents
 - [🛠️ Prerequisites](#prerequisites)
-- [🚀 Setup](#setup)
+- [�� Setup](#setup)
+- [.env & Environment Variables](#env--environment-variables)
 - [💬 Usage](#usage)
 - [📁 File Structure](#file-structure)
 - [🧑‍💻 Code Explainer](#code-explainer)
@@ -27,6 +28,36 @@ cp env_template.txt .env
 ```bash
 python chat.py
 ```
+
+## .env & Environment Variables
+
+This project uses a `.env` file to securely store your OpenAI API key and any other sensitive configuration values. The `.env` file should be placed in the same directory as your code.
+
+**Example `.env` file:**
+```env
+OPENAI_API_KEY=your-openai-api-key-here
+```
+
+- Never share your `.env` file or commit it to version control (e.g., GitHub).
+- Use the provided `env_template.txt` as a starting point.
+
+### Loading Environment Variables in Python
+
+This project uses the [`python-dotenv`](https://pypi.org/project/python-dotenv/) package to load environment variables from the `.env` file automatically. In `chat.py`, the following code loads your variables:
+
+```python
+from dotenv import load_dotenv
+load_dotenv()
+```
+
+You can then access your API key (or any other variable) using:
+
+```python
+import os
+api_key = os.getenv('OPENAI_API_KEY')
+```
+
+This approach keeps your secrets out of your code and makes it easy to manage different environments (development, production, etc.).
 
 ## Usage
 

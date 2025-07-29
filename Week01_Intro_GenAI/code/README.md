@@ -2,8 +2,8 @@
 
 ## Table of Contents
 - [🛠️ Prerequisites](#prerequisites)
-- [�� Setup](#setup)
-- [.env & Environment Variables](#env--environment-variables)
+- [⚙️ Setup](#setup)
+- [🔑 Configuring API Keys](#-configuring-api-keys)
 - [💬 Usage](#usage)
 - [📁 File Structure](#file-structure)
 - [🧑‍💻 Code Explainer](#code-explainer)
@@ -29,7 +29,14 @@ cp env_template.txt .env
 python chat.py
 ```
 
-## .env & Environment Variables
+## 🔑 Configuring API Keys
+
+Your code needs access to your OpenAI API key to work, but we don't want to hardcode it directly in the source code (that would be like leaving your house key under the doormat!). Instead, we use **environment variables** - think of them as secret notes that your computer can read but aren't stored in your code files.
+
+The code expects to find your API key in an environment variable called `OPENAI_API_KEY`. You have two ways to set this up:
+
+1. **Using a `.env` file** (recommended for beginners) - A simple text file that stores your secrets
+2. **Setting it manually** in your terminal/command prompt - More advanced but gives you more control
 
 This project uses a `.env` file to securely store your OpenAI API key and any other sensitive configuration values. The `.env` file should be placed in the same directory as your code.
 
@@ -58,6 +65,46 @@ api_key = os.getenv('OPENAI_API_KEY')
 ```
 
 This approach keeps your secrets out of your code and makes it easy to manage different environments (development, production, etc.).
+
+### Manual Environment Variable Setup (Alternative Method)
+
+If you prefer to set environment variables manually instead of using a `.env` file, here's how to do it:
+
+#### On macOS/Linux:
+
+**Set an environment variable:**
+```bash
+export OPENAI_API_KEY="your-openai-api-key-here"
+```
+
+**Show a specific environment variable:**
+```bash
+echo $OPENAI_API_KEY
+```
+
+#### On Windows:
+
+**Set an environment variable (Command Prompt):**
+```cmd
+set OPENAI_API_KEY=your-openai-api-key-here
+```
+
+**Set an environment variable (PowerShell):**
+```powershell
+$env:OPENAI_API_KEY="your-openai-api-key-here"
+```
+
+**Show a specific environment variable (Command Prompt):**
+```cmd
+echo %OPENAI_API_KEY%
+```
+
+**Show a specific environment variable (PowerShell):**
+```powershell
+echo $env:OPENAI_API_KEY
+```
+
+**Note:** If you set environment variables manually, you can remove the `.env` file and the `load_dotenv()` call from your code, as Python will automatically pick up system environment variables.
 
 ## Usage
 

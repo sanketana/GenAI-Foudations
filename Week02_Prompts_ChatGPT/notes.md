@@ -1,5 +1,13 @@
 # Week 02: Prompts and ChatGPT - Instructor Notes
 
+## Learning Objectives
+- Understanding prompt engineering fundamentals
+- Mastering effective prompting techniques
+- Exploring ChatGPT capabilities and limitations
+- Best practices for AI interaction
+
+
+
 ## Step 1: Choosing a Model
 
 When working with AI models, selecting the right model for your specific use case is crucial. Here's a comparison of different model categories:
@@ -144,44 +152,177 @@ See the complete implementation in the `code/` folder:
 For advanced system prompt techniques including dynamic prompts and multi-role assistants, see the complete implementation in `code/system_prompts_demo.py`.
 
 ---
-## Learning Objectives
-- Understanding prompt engineering fundamentals
-- Mastering effective prompting techniques
-- Exploring ChatGPT capabilities and limitations
-- Best practices for AI interaction
 
-## Key Topics to Cover
-1. What is prompt engineering?
-2. Types of prompts (zero-shot, few-shot, chain-of-thought)
-3. ChatGPT architecture overview
-4. Practical prompting strategies
-5. Common pitfalls and how to avoid them
+## Step 3: Crafting Effective User Prompts
 
-## Hands-on Activities
-- Live demonstration of prompt optimization
-- Student practice sessions with ChatGPT
-- Comparing different prompting approaches
-- Troubleshooting common issues
+### Understanding User Prompts
 
-## Discussion Points
-- When does prompt engineering work well vs. poorly?
-- How to evaluate prompt effectiveness?
-- Role of context and specificity in prompts
+User prompts are the specific instructions, questions, or requests that users send to AI models. While system prompts define the AI's role and behavior, user prompts determine what specific task or information the AI should provide.
 
-## Demo Scripts
-- Basic prompt examples
-- Progressive prompt refinement
-- Role-playing prompts
-- Technical documentation generation
+### Key Principles of Effective User Prompts
 
-## Assessment Checkpoints
-- Students should demonstrate improved prompt quality
-- Understanding of different prompt types
-- Ability to critique and improve prompts 
+#### 1. **Clarity and Specificity**
+❌ **Poor:** "Tell me about AI"
+✅ **Good:** "Explain the difference between machine learning and deep learning, with 3 practical examples of each"
 
+#### 2. **Context and Background**
+❌ **Poor:** "Write code for a website"
+✅ **Good:** "I'm building a portfolio website for a graphic designer. I need a responsive HTML/CSS layout with a hero section, about me, portfolio gallery, and contact form. The design should be modern and minimalist."
 
-- Choosing a model
-  Model types
-    - Reasoning models
-    - GPT models
-    - Large and Small (mini, nano)
+#### 3. **Step-by-Step Instructions**
+❌ **Poor:** "Analyze this data"
+✅ **Good:** "Please analyze this sales data by: 1) Calculating monthly revenue trends, 2) Identifying top-performing products, 3) Suggesting 3 actionable insights for improvement"
+
+#### 4. **Output Format Specification**
+❌ **Poor:** "List programming languages"
+✅ **Good:** "List 10 popular programming languages in a table format with columns for: Language Name, Primary Use Case, Difficulty Level, and Job Market Demand"
+
+### Prompt Engineering Techniques
+
+#### Zero-Shot Prompting
+Asking the AI to perform a task without providing examples.
+
+**Example:**
+```
+Classify this text as positive, negative, or neutral: "The new software update significantly improved system performance."
+```
+
+#### Few-Shot Prompting
+Providing examples to guide the AI's response format and style.
+
+**Example:**
+```
+Text: "I love this product!"
+Sentiment: Positive
+
+Text: "This is terrible quality."
+Sentiment: Negative
+
+Text: "The new software update significantly improved system performance."
+Sentiment: Positive
+```
+
+#### Chain-of-Thought Prompting
+Encouraging the AI to show its reasoning process step by step.
+
+**Example:**
+```
+Let's solve this step by step:
+
+Problem: A restaurant has 20 tables. Each table can seat 4 people. 
+The restaurant is open for 6 hours and each table is occupied for 2 hours on average.
+How many customers can the restaurant serve in a day?
+
+Let me think through this:
+1) First, I need to understand the capacity
+2) Then, I'll calculate how many times each table can be used
+3) Finally, I'll determine the total number of customers
+
+Solution:
+```
+
+#### Role-Based Prompting
+Assigning a specific role or expertise to the AI.
+
+**Example:**
+```
+You are a senior data scientist with 10 years of experience in machine learning.
+You specialize in time series forecasting and have worked with companies like Google and Amazon.
+Please explain how to implement a sales forecasting model using Python.
+```
+
+### Advanced Prompting Strategies
+
+#### 1. **Iterative Refinement**
+- Start with a basic prompt
+- Test the response
+- Refine based on results
+- Repeat until satisfied
+
+#### 2. **Temperature Control**
+- Use low temperature (0.1-0.3) for factual, consistent responses
+- Use high temperature (0.7-0.9) for creative, varied responses
+
+#### 3. **Context Window Management**
+- Be concise but complete
+- Prioritize essential information
+- Use bullet points for clarity
+
+#### 4. **Error Handling**
+- Anticipate potential misunderstandings
+- Provide fallback instructions
+- Ask for clarification when needed
+
+### Common Prompt Patterns
+
+#### Analysis Prompts
+```
+Please analyze [topic/subject] by:
+1. [First aspect to consider]
+2. [Second aspect to consider]
+3. [Third aspect to consider]
+
+Provide specific examples and actionable insights.
+```
+
+#### Creative Writing Prompts
+```
+Write a [type of content] about [topic] that:
+- Has a [specific tone/style]
+- Includes [specific elements]
+- Targets [specific audience]
+- Is approximately [length] words
+```
+
+#### Problem-Solving Prompts
+```
+I'm facing [specific problem]. Here's what I've tried:
+- [Attempt 1]
+- [Attempt 2]
+
+Please help me:
+1. Identify the root cause
+2. Suggest 3 possible solutions
+3. Recommend the best approach with step-by-step instructions
+```
+
+### Best Practices for User Prompts
+
+#### 1. **Be Explicit About Requirements**
+- Specify the desired output format
+- Mention any constraints or limitations
+- Include quality criteria
+
+#### 2. **Provide Sufficient Context**
+- Include relevant background information
+- Specify the target audience
+- Mention any specific requirements
+
+#### 3. **Use Clear, Actionable Language**
+- Avoid ambiguous terms
+- Use specific, measurable criteria
+- Break complex requests into smaller parts
+
+#### 4. **Test and Iterate**
+- Start with simple prompts
+- Gradually add complexity
+- Learn from AI responses
+- Refine based on results
+
+### Common Mistakes to Avoid
+
+1. **Vague Instructions:** "Make it better" doesn't provide clear guidance
+2. **Overwhelming Complexity:** Don't ask for too many things at once
+3. **Missing Context:** Provide enough background for the AI to understand
+4. **Unrealistic Expectations:** Don't expect the AI to read your mind
+5. **Ignoring Output Format:** Always specify how you want the response structured
+
+### Practical Examples
+
+See the complete implementation in the `code/` folder:
+- **`prompt_engineering_exercises.ipynb`** - Comprehensive exercises covering all techniques
+- **`dynamic_prompts.py`** - Advanced prompt generation and manipulation
+- **`simple_example.py`** - Basic prompt examples and comparisons
+
+---
+

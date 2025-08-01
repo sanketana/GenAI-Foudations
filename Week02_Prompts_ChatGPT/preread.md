@@ -3,7 +3,10 @@
 ## DAIR.AI Prompt Engineering Resources
 *Essential comprehensive resource covering both theoretical foundations and practical applications of prompt engineering techniques.*
 
-1. **"Prompt Engineering Guide"** - DAIR.AI
+1. **"Prompting 101"** - A Swedish Insurance Claim processing case study
+   - Video Tutorial: https://youtu.be/ysPbXH0LpIE?si=fRLdemiJP-1T8EYW
+
+2. **"Prompt Engineering Guide"** - DAIR.AI
    - Comprehensive guide to prompt engineering techniques
    - URL: https://www.promptingguide.ai/
 

@@ -6,9 +6,14 @@
 - Exploring ChatGPT capabilities and limitations
 - Best practices for AI interaction
 
+## Classwork Exercises
+- Simple System Prompts Example
+- Dynamic System Prompts - Interactive Demo
+- Prompt Engineering exercises (DAIR.ai)
+- Anthropic Prompting 101 (Swedish Insurance Case Study)
+- Using AI to optimize AI Prompts! (OpenAI Playground)
 
-
-## Step 1: Choosing a Model
+## Step 1: Choosing the Right Model
 
 When working with AI models, selecting the right model for your specific use case is crucial. Here's a comparison of different model categories:
 
@@ -51,7 +56,7 @@ When working with AI models, selecting the right model for your specific use cas
 - Real-time applications
 - Limited computational resources
 
-## Step 2: Define System Prompt
+## Step 2: Define Optimum System Prompt
 
 ### What is a System Prompt?
 
@@ -325,4 +330,5 @@ See the complete implementation in the `code/` folder:
 - **`simple_example.py`** - Basic prompt examples and comparisons
 
 ---
-
+### Prompt Structure
+![Prompt Structure Framework](Prompt_Structure.png)

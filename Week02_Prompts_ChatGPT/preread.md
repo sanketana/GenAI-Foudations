@@ -12,7 +12,7 @@
    - Covers fundamental concepts and practical examples
 
 3. **Jupyter Notebook** - Hands-on exercises and examples
-   - URL: https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/notebooks/pe-python.ipynb
+   - URL: https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/notebooks/pe-lecture.ipynb
 
 4. **GitHub Repository** - Complete source code and resources
    - URL: https://github.com/dair-ai/Prompt-Engineering-Guide

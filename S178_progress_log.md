@@ -30,3 +30,20 @@
 - Try other API available on the getting started page
 - This includes Vision API code and tool calling code
 - You can make use of examples provided in the OpenAI documentation here: [OpenAI Quickstart Guide](https://platform.openai.com/docs/quickstart?api-mode=responses)
+
+---
+
+## Week 3 - OpenAI Chatbot (with history) (2-August)
+
+### Topics Covered
+- Configuring Environment variables
+- Using Load Dot Env
+- Passing Messages List in API call
+- Maintaining Conversation history / Context
+
+### Homework
+- Extend the Chatbot exercise to add following features:
+  - User Preferences: Allow users to set their name and preferred conversation style
+  - Temperature Control: Add a setting to control response creativity (0.0 = focused, 1.0 = creative)
+  - Response Length: Max Token parameter to control the token length
+  - Optional: Learn and Use Tiktokeniser to provide the summary of tokens consumed during the conversation

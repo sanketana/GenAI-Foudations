@@ -1,38 +1,37 @@
-# Week 11: Homework Assignment
+# Week 11: Voluntary Assignment
 
 ## Assignment: Production Deployment Pipeline
 
-### Part 1: Application Containerization (30 points)
-**Deadline:** Before Week 12 class
+### Part 1: Application Containerization
 
-1. **Docker Implementation** (20 points)
+1. **Docker Implementation**
    - Create comprehensive Dockerfile for your AI application
    - Implement multi-stage builds for optimization
    - Add proper environment variable management
    - Include health checks and monitoring endpoints
 
-2. **Configuration Management** (10 points)
+2. **Configuration Management**
    - Implement environment-specific configurations
    - Add secrets management for API keys and credentials
    - Create docker-compose files for local development
    - Include proper logging and debugging configurations
 
-### Part 2: CI/CD Pipeline Implementation (40 points)
+### Part 2: CI/CD Pipeline Implementation
 **Build automated deployment pipeline using GitHub Actions**
 
-1. **Continuous Integration** (20 points)
+1. **Continuous Integration**
    - Set up automated testing on code changes
    - Implement code quality checks and linting
    - Add security scanning and vulnerability assessment
    - Include performance testing and benchmarks
 
-2. **Continuous Deployment** (20 points)
+2. **Continuous Deployment**
    - Automate deployment to staging and production environments
    - Implement blue-green or rolling deployment strategies
    - Add automatic rollback on deployment failures
    - Include deployment notifications and status reporting
 
-### Part 3: Multi-Platform Deployment (30 points)
+### Part 3: Multi-Platform Deployment
 **Deploy your application to at least two different platforms**
 
 Choose from the following deployment targets:
@@ -49,13 +48,13 @@ Choose from the following deployment targets:
 - Microsoft Azure (App Service or Container Instances)
 
 **Implementation Requirements:**
-1. **Platform-Specific Optimization** (15 points)
+1. **Platform-Specific Optimization**
    - Optimize configurations for each platform
    - Implement platform-specific monitoring and logging
    - Add environment-specific scaling configurations
    - Include cost optimization strategies
 
-2. **Production Features** (15 points)
+2. **Production Features**
    - SSL/TLS certificate configuration
    - Custom domain setup and DNS configuration
    - Load balancing and auto-scaling (where applicable)
@@ -63,21 +62,21 @@ Choose from the following deployment targets:
 
 ## Advanced Requirements
 
-**Monitoring and Observability (20 bonus points)**
+**Monitoring and Observability**
 - Application performance monitoring (APM)
 - Error tracking and alerting (Sentry, Rollbar)
 - User analytics and usage metrics
 - Infrastructure monitoring and dashboards
 - Log aggregation and analysis
 
-**Security Implementation (15 bonus points)**
+**Security Implementation**
 - Authentication and authorization systems
 - API security and rate limiting
 - Data encryption and privacy protection
 - Security headers and HTTPS enforcement
 - Vulnerability scanning and compliance
 
-**Advanced DevOps (10 bonus points)**
+**Advanced DevOps**
 - Infrastructure as Code (Terraform, CloudFormation)
 - Kubernetes deployment and orchestration
 - Database migration and management
@@ -116,12 +115,6 @@ Choose from the following deployment targets:
    - Performance optimization implementations
    - Scalability analysis and recommendations
    - Cost comparison across platforms
-
-## Evaluation Criteria
-- **Deployment Success (25%):** Working deployments on multiple platforms
-- **Automation Quality (25%):** CI/CD pipeline effectiveness and reliability
-- **Production Readiness (25%):** Security, monitoring, and operational features
-- **Technical Excellence (25%):** Code quality, documentation, and best practices
 
 ## Platform-Specific Requirements
 
@@ -173,12 +166,4 @@ Choose from the following deployment targets:
 4. Document all procedures and configurations
 5. Plan for rollback and disaster recovery scenarios
 6. Monitor costs and optimize resource usage
-7. Follow security best practices throughout
-
-## Submission Guidelines
-- Submit via GitHub repository with complete CI/CD pipeline
-- Include live deployment URLs for all platforms
-- Provide comprehensive documentation and operations manual
-- Submit technical analysis and performance report
-- Include reflection on deployment challenges and solutions
-- Record demonstration video showing deployment process (7-10 minutes) 
+7. Follow security best practices throughout 

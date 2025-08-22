@@ -1,23 +1,22 @@
-# Week 10: Homework Assignment
+# Week 10: Voluntary Assignment
 
 ## Assignment: Professional Multi-Page AI Application
 
-### Part 1: Advanced Layout Implementation (35 points)
-**Deadline:** Before Week 11 class
+### Part 1: Advanced Layout Implementation
 
-1. **Complex Layout Components** (20 points)
+1. **Complex Layout Components**
    - Implement responsive grid layouts using columns
    - Create nested containers and organizational structures
    - Add collapsible sections with expanders
    - Design professional metric displays and KPI dashboards
 
-2. **Custom Styling and Theming** (15 points)
+2. **Custom Styling and Theming**
    - Create custom CSS themes for professional appearance
    - Implement responsive design for different screen sizes
    - Add loading states and progress indicators
    - Include hover effects and interactive elements
 
-### Part 2: Multi-Page Application Architecture (40 points)
+### Part 2: Multi-Page Application Architecture
 **Build a comprehensive AI-powered application with multiple pages**
 
 Choose one application type and implement full functionality:
@@ -41,28 +40,28 @@ Choose one application type and implement full functionality:
 - Analytics and performance monitoring
 
 **Requirements:**
-1. **Navigation and Structure** (20 points)
+1. **Navigation and Structure**
    - Intuitive multi-page navigation system
    - Consistent layout and branding across pages
    - Breadcrumb navigation and page hierarchy
    - User-friendly menu and search functionality
 
-2. **Feature Integration** (20 points)
+2. **Feature Integration**
    - Seamless integration of AI capabilities
    - Advanced form handling and validation
    - Real-time data updates and synchronization
    - Export and sharing functionality
 
-### Part 3: Professional Features and Optimization (25 points)
+### Part 3: Professional Features and Optimization
 **Production-ready enhancements and performance optimization**
 
-1. **User Experience Enhancements** (15 points)
+1. **User Experience Enhancements**
    - Advanced state management across pages
    - User authentication and session handling
    - Personalization and user preferences
    - Comprehensive error handling and feedback
 
-2. **Performance and Scalability** (10 points)
+2. **Performance and Scalability**
    - Caching strategies for improved performance
    - Lazy loading and progressive enhancement
    - Memory optimization and resource management
@@ -75,7 +74,7 @@ Choose one application type and implement full functionality:
 - Responsive design supporting mobile and desktop
 - Comprehensive error handling and user feedback
 
-## Advanced Features (Bonus - 5 points each)
+## Advanced Features
 - Real-time collaboration and multi-user support
 - Advanced data visualization with interactive charts
 - Integration with external APIs and services
@@ -130,12 +129,6 @@ Choose one application type and implement full functionality:
    - FAQ and troubleshooting
    - Contact and support information
 
-## Evaluation Criteria
-- **UI/UX Design (30%):** Professional appearance, usability, and design consistency
-- **Technical Implementation (25%):** Code quality, architecture, and advanced features
-- **Functionality (25%):** Feature completeness, reliability, and integration quality
-- **Performance and Optimization (20%):** Loading speed, responsiveness, and scalability
-
 ## Design Standards
 - Consistent color scheme and typography
 - Professional spacing and alignment
@@ -159,11 +152,4 @@ Choose one application type and implement full functionality:
 4. Test on different devices and screen sizes
 5. Implement comprehensive error handling throughout
 6. Document design decisions and technical choices
-7. Prioritize user experience and intuitive navigation
-
-## Submission Guidelines
-- Submit via GitHub repository with clear documentation
-- Include live deployment URL with demo access
-- Provide comprehensive user guide and technical documentation
-- Submit design rationale and implementation report
-- Include video walkthrough demonstrating all features (6-8 minutes) 
+7. Prioritize user experience and intuitive navigation 

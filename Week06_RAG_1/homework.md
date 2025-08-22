@@ -1,29 +1,28 @@
-# Week 06: Homework Assignment
+# Week 06: Voluntary Assignment
 
 ## Assignment: Building Your First RAG System
 
-### Part 1: RAG Pipeline Implementation (45 points)
-**Deadline:** Before Week 07 class
+### Part 1: RAG Pipeline Implementation
 
-1. **Document Processing Pipeline** (15 points)
+1. **Document Processing Pipeline**
    - Support multiple document formats (PDF, TXT, DOCX)
    - Implement intelligent text chunking
    - Handle metadata extraction and storage
    - Add duplicate detection and filtering
 
-2. **Retrieval System** (15 points)
+2. **Retrieval System**
    - Integrate with vector database from Week 05
    - Implement similarity search with filtering
    - Add re-ranking based on relevance
    - Support multiple retrieval strategies
 
-3. **Generation Integration** (15 points)
+3. **Generation Integration**
    - Connect retrieval to language model
    - Design effective prompts for RAG
    - Handle context length limitations
    - Implement response citation and attribution
 
-### Part 2: RAG Application Development (35 points)
+### Part 2: RAG Application Development
 **Create a domain-specific question-answering system**
 
 Choose one domain and build a specialized RAG system:
@@ -44,27 +43,27 @@ Choose one domain and build a specialized RAG system:
 - Include role-based access and personalization
 
 **Requirements:**
-1. **Data Collection and Processing** (15 points)
+1. **Data Collection and Processing**
    - Gather minimum 100 relevant documents
    - Implement domain-specific preprocessing
    - Optimize chunking for content type
 
-2. **Interface Development** (20 points)
+2. **Interface Development**
    - Create Streamlit interface for queries
    - Display sources and confidence scores
    - Add query suggestions and history
    - Include feedback collection mechanism
 
-### Part 3: Evaluation and Optimization (20 points)
+### Part 3: Evaluation and Optimization
 **Systematically evaluate and improve your RAG system**
 
-1. **Performance Evaluation** (10 points)
+1. **Performance Evaluation**
    - Create test dataset with questions and answers
    - Measure retrieval accuracy and generation quality
    - Benchmark response times and efficiency
    - Compare with baseline approaches
 
-2. **Optimization Experiments** (10 points)
+2. **Optimization Experiments**
    - Test different chunk sizes and overlap strategies
    - Compare embedding models and similarity metrics
    - Experiment with prompt engineering variations
@@ -96,13 +95,7 @@ Choose one domain and build a specialized RAG system:
    - Test cases and examples
    - Deployment instructions
 
-## Evaluation Criteria
-- **System Functionality (35%):** Complete working RAG pipeline
-- **Technical Quality (25%):** Code organization and best practices
-- **Domain Adaptation (20%):** Effectiveness for chosen use case
-- **Evaluation Rigor (20%):** Systematic testing and optimization
-
-## Bonus Features (5 points each)
+## Optional Features
 - Multi-turn conversation support
 - Streaming responses for better UX
 - Advanced retrieval techniques (hybrid search, re-ranking)
@@ -123,11 +116,4 @@ Choose one domain and build a specialized RAG system:
 3. Test with realistic user queries
 4. Measure and optimize each component separately
 5. Design evaluation metrics that matter for your use case
-6. Document challenges and learnings throughout
-
-## Submission Guidelines
-- Submit via GitHub repository with clear README
-- Include live demo video (3-5 minutes)
-- Provide access to deployed application (optional)
-- Submit evaluation report as PDF
-- Include reflection on learning process 
+6. Document challenges and learnings throughout 

@@ -1,23 +1,22 @@
-# Week 02: Homework Assignment
+# Week 02: Voluntary Assignment
 
 ## Assignment: Mastering Prompt Engineering
 
-### Part 1: Prompt Design Challenge (50 points)
-**Deadline:** Before Week 03 class
+### Part 1: Prompt Design Challenge
 
 **Task:** Create optimized prompts for three different use cases:
 
-1. **Creative Writing Assistant** (15 points)
+1. **Creative Writing Assistant**
    - Design prompts for story generation
    - Include character development and plot structure
    - Test with different genres
 
-2. **Technical Documentation Generator** (15 points)
+2. **Technical Documentation Generator**
    - Create prompts for API documentation
    - Include code examples and explanations
    - Focus on clarity and completeness
 
-3. **Data Analysis Helper** (20 points)
+3. **Data Analysis Helper**
    - Develop prompts for interpreting datasets
    - Include statistical analysis requests
    - Test with sample data
@@ -27,14 +26,14 @@
 - Include ChatGPT responses for each prompt
 - Provide analysis of which prompts worked best and why
 
-### Part 2: Prompt Optimization Study (30 points)
+### Part 2: Prompt Optimization Study
 **Choose one specific task and optimize it through iteration**
 
-1. **Baseline Prompt** (10 points)
+1. **Baseline Prompt**
    - Start with a simple, direct prompt
    - Document the initial response quality
 
-2. **Iterative Improvement** (20 points)
+2. **Iterative Improvement**
    - Create 5 different versions of the prompt
    - Apply different techniques: few-shot examples, chain-of-thought, role-playing
    - Measure and compare response quality
@@ -45,7 +44,7 @@
 - Clarity and readability
 - Relevance to the request
 
-### Part 3: Prompt Engineering Best Practices (20 points)
+### Part 3: Prompt Engineering Best Practices
 **Create a personal prompt engineering guide**
 
 Write a 400-600 word guide including:
@@ -53,22 +52,6 @@ Write a 400-600 word guide including:
 2. Common mistakes to avoid
 3. Specific examples from your experiments
 4. Tips for different types of tasks
-
-## Submission Guidelines
-- Submit as a structured document (PDF or Markdown)
-- Include all prompts and responses
-- Use clear formatting and organization
-- Provide reflection on learning process
-
-## Grading Rubric
-- **Prompt Quality (40%):** Creativity, effectiveness, optimization
-- **Analysis and Reflection (35%):** Understanding of techniques, critical evaluation
-- **Documentation (25%):** Clear presentation, complete examples
-
-## Bonus Points (5 points)
-- Discover and document a novel prompting technique
-- Create prompts that work well across multiple AI models
-- Develop prompts for a unique use case not covered in class
 
 ## Resources
 - OpenAI Playground for testing

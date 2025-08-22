@@ -1,16 +1,15 @@
-# Week 01: Homework Assignment
+# Week 01: Voluntary Assignment
 
 ## Assignment: Exploring Generative AI Applications
 
-### Part 1: Research and Analysis (40 points)
-**Deadline:** Before Week 02 class
+### Part 1: Research and Analysis
 
-1. **Choose a Generative AI Tool** (20 points)
+1. **Choose a Generative AI Tool**
    - Select one generative AI tool (e.g., ChatGPT, DALL-E, Midjourney, GitHub Copilot)
    - Use the tool for at least 30 minutes
    - Document your experience with screenshots and examples
 
-2. **Write a Reflection Report** (20 points)
+2. **Write a Reflection Report**
    - 500-750 words
    - Address the following questions:
      - What task did you accomplish with the tool?
@@ -18,7 +17,7 @@
      - What limitations did you observe?
      - How might this tool be useful in your field/work?
 
-### Part 2: Ethics Discussion (30 points)
+### Part 2: Ethics Discussion
 **Prepare for in-class discussion**
 
 Read the provided ethical guidelines and be prepared to discuss:
@@ -27,7 +26,7 @@ Read the provided ethical guidelines and be prepared to discuss:
 3. Impact on employment and creative industries
 4. Responsible use guidelines
 
-### Part 3: Technical Setup (30 points)
+### Part 3: Technical Setup
 **Set up your development environment**
 
 1. Create accounts for:
@@ -40,19 +39,7 @@ Read the provided ethical guidelines and be prepared to discuss:
    - Jupyter Notebook
    - Git
 
-3. Submit a screenshot of your working setup
-
-## Submission Guidelines
-- Submit via course management system
-- Format: PDF for written portions
-- Include all screenshots and examples
-- Late submissions: -10 points per day
-
-## Grading Rubric
-- **Excellent (90-100%):** Thorough analysis, clear writing, all requirements met
-- **Good (80-89%):** Good analysis, minor issues with requirements
-- **Satisfactory (70-79%):** Basic requirements met, limited analysis
-- **Needs Improvement (<70%):** Missing components or insufficient analysis
+3. Take a screenshot of your working setup
 
 ## Resources
 - Course reading materials

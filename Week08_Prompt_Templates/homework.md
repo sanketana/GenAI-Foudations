@@ -1,17 +1,16 @@
-# Week 08: Homework Assignment
+# Week 08: Voluntary Assignment
 
 ## Assignment: Advanced Prompt Template System
 
-### Part 1: Prompt Template Library (40 points)
-**Deadline:** Before Week 09 class
+### Part 1: Prompt Template Library
 
-1. **Core Template Framework** (20 points)
+1. **Core Template Framework**
    - Design modular prompt template system
    - Implement variable interpolation and validation
    - Add conditional logic and dynamic content
    - Support template inheritance and composition
 
-2. **Template Collection** (20 points)
+2. **Template Collection**
    - Create 10+ reusable prompt templates for different tasks:
      - Content generation (blog posts, emails, summaries)
      - Analysis and reasoning (data analysis, comparisons)
@@ -20,22 +19,22 @@
    - Include parameter definitions and usage examples
    - Add comprehensive documentation and metadata
 
-### Part 2: Dynamic Prompt System (35 points)
+### Part 2: Dynamic Prompt System
 **Build intelligent prompt generation and optimization**
 
-1. **Context-Aware Prompt Selection** (15 points)
+1. **Context-Aware Prompt Selection**
    - Implement prompt selection based on context
    - Add role-based prompt customization
    - Support different model types and capabilities
    - Include fallback and error handling strategies
 
-2. **Optimization Framework** (20 points)
+2. **Optimization Framework**
    - Create A/B testing system for prompts
    - Implement performance tracking and analytics
    - Add automated prompt optimization suggestions
    - Support version control and change tracking
 
-### Part 3: Production Integration (25 points)
+### Part 3: Production Integration
 **Deploy template system with real application**
 
 Choose one application type and integrate your template system:
@@ -56,12 +55,12 @@ Choose one application type and integrate your template system:
 - Executive summary creation
 
 **Requirements:**
-1. **Application Integration** (15 points)
+1. **Application Integration**
    - Seamless template integration with chosen application
    - User-friendly interface for template selection
    - Real-time prompt generation and execution
 
-2. **User Experience** (10 points)
+2. **User Experience**
    - Intuitive template discovery and usage
    - Parameter input validation and guidance
    - Result customization and refinement options
@@ -73,7 +72,7 @@ Choose one application type and integrate your template system:
 - Performance optimization and caching
 - Documentation and usage examples
 
-## Advanced Features (Bonus - 5 points each)
+## Advanced Features
 - Multi-language template support
 - Machine learning-based prompt optimization
 - Integration with external template repositories
@@ -104,12 +103,6 @@ Choose one application type and integrate your template system:
    - Usage examples and best practices
    - Parameter specifications and validation rules
    - Performance characteristics and optimization tips
-
-## Evaluation Criteria
-- **System Design (30%):** Architecture, modularity, and extensibility
-- **Template Quality (25%):** Effectiveness, reusability, and documentation
-- **Integration Excellence (25%):** Seamless application integration and UX
-- **Technical Implementation (20%):** Code quality, testing, and performance
 
 ## Template Categories to Include
 1. **Content Generation Templates**
@@ -146,11 +139,4 @@ Choose one application type and integrate your template system:
 4. Document design decisions and trade-offs
 5. Prioritize user experience in template discovery and usage
 6. Measure performance impact of template optimizations
-7. Consider maintenance and evolution of template library
-
-## Submission Guidelines
-- Submit via GitHub repository with clear organization
-- Include live demo of integrated application
-- Provide comprehensive documentation and examples
-- Submit technical report and template documentation
-- Include video demonstration of system capabilities (4-6 minutes) 
+7. Consider maintenance and evolution of template library 

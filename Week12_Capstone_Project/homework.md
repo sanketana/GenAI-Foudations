@@ -5,41 +5,41 @@
 ### Project Overview
 Create a comprehensive AI application that integrates multiple concepts from the course and demonstrates professional development practices. This project should solve a real-world problem and showcase your mastery of GenAI development.
 
-### Required Components Integration (80 points)
+### Required Components Integration
 
 **Must include at least 4 of the following 5 components:**
 
-1. **Advanced Prompt Engineering and Templates (20 points)**
+1. **Advanced Prompt Engineering and Templates**
    - Sophisticated prompt template system
    - Dynamic prompt generation and optimization
    - Multi-step reasoning and chain-of-thought prompting
    - A/B testing and performance optimization
 
-2. **RAG or Embeddings-Based Functionality (20 points)**
+2. **RAG or Embeddings-Based Functionality**
    - Advanced retrieval-augmented generation system
    - Semantic search with vector databases
    - Multi-modal or cross-domain retrieval
    - Context optimization and relevance ranking
 
-3. **External Tools and Agent Integration (20 points)**
+3. **External Tools and Agent Integration**
    - AI agent with reasoning and planning capabilities
    - Multiple external tool integrations
    - Multi-step workflow orchestration
    - Error handling and recovery mechanisms
 
-4. **Professional Streamlit Interface (20 points)**
+4. **Professional Streamlit Interface**
    - Multi-page application with advanced layouts
    - Professional UI/UX with custom styling
    - Real-time updates and interactive features
    - Responsive design and accessibility
 
-5. **Production Deployment Pipeline (20 points)**
+5. **Production Deployment Pipeline**
    - Containerized deployment with Docker
    - CI/CD pipeline with automated testing
    - Multi-environment deployment strategy
    - Monitoring and observability implementation
 
-### Innovation and Impact (20 points)
+### Innovation and Impact
 
 **Choose one focus area for additional depth:**
 
@@ -103,13 +103,13 @@ Create a comprehensive AI application that integrates multiple concepts from the
 
 ## Deliverables
 
-### 1. Complete Application (40% of grade)
+### 1. Complete Application
 - Fully functional AI application
 - Integration of required components
 - Professional code quality and architecture
 - Comprehensive testing and validation
 
-### 2. Technical Documentation (25% of grade)
+### 2. Technical Documentation
 **Comprehensive documentation including:**
 - Project overview and problem statement
 - Technical architecture and design decisions
@@ -119,44 +119,18 @@ Create a comprehensive AI application that integrates multiple concepts from the
 - Security considerations and best practices
 - Future development and scaling plans
 
-### 3. Live Presentation (25% of grade)
+### 3. Live Presentation
 **15-minute presentation including:**
 - Problem statement and solution overview (3 minutes)
 - Live demonstration of key features (7 minutes)
 - Technical architecture and implementation highlights (3 minutes)
 - Challenges faced and lessons learned (2 minutes)
 
-### 4. Professional Portfolio Entry (10% of grade)
+### 4. Professional Portfolio Entry
 - Polished project description and screenshots
 - Clear explanation of technologies and techniques used
 - Results and impact measurement
 - Reflection on learning and development
-
-## Evaluation Criteria
-
-### Technical Excellence (40%)
-- Code quality, architecture, and best practices
-- Successful integration of multiple course concepts
-- Innovation in implementation and problem-solving
-- Performance optimization and scalability considerations
-
-### Functionality and User Experience (30%)
-- Application completeness and reliability
-- User interface design and usability
-- Feature richness and utility
-- Error handling and edge case management
-
-### Documentation and Communication (20%)
-- Clarity and comprehensiveness of documentation
-- Quality of technical presentation and demonstration
-- Ability to explain complex concepts clearly
-- Professional presentation and portfolio quality
-
-### Innovation and Impact (10%)
-- Creativity in problem-solving and implementation
-- Potential real-world impact and applicability
-- Novel use of AI techniques and technologies
-- Contribution to the field or domain
 
 ## Timeline and Milestones
 
@@ -233,16 +207,5 @@ Create a comprehensive AI application that integrates multiple concepts from the
 5. **Focus on user experience and practical utility**
 6. **Prepare for demonstration early and practice frequently**
 7. **Leave time for polish and unexpected challenges**
-
-## Submission Requirements
-- GitHub repository with complete code and documentation
-- Live deployment URL with demo access
-- Technical documentation (PDF format)
-- Presentation slides and demo materials
-- Video demonstration (optional, for portfolio)
-- Reflection essay on learning and development (500-750 words)
-
-**Final presentation date:** [To be scheduled]
-**Final submission deadline:** [To be announced]
 
 This capstone project represents the culmination of your learning journey in GenAI development. Focus on creating something you're proud to showcase and that demonstrates your growth as an AI developer. 

@@ -1,64 +1,63 @@
-# Week 05: Homework Assignment
+# Week 05: Voluntary Assignment
 
 ## Assignment: Vector Database Implementation
 
-### Part 1: Database Comparison Study (25 points)
-**Deadline:** Before Week 06 class
+### Part 1: Database Comparison Study
 
 **Task:** Compare three different vector database solutions
 
-1. **Setup and Configuration** (10 points)
+1. **Setup and Configuration**
    - Set up Pinecone, ChromaDB, and FAISS
    - Load the same dataset into each system
    - Document setup process and challenges
 
-2. **Performance Analysis** (15 points)
+2. **Performance Analysis**
    - Benchmark query speed and accuracy
    - Test with different dataset sizes
    - Measure memory and storage requirements
    - Compare API usability and features
 
-### Part 2: Production Vector Search System (50 points)
+### Part 2: Production Vector Search System
 **Build a scalable semantic search application**
 
-1. **Data Ingestion Pipeline** (20 points)
+1. **Data Ingestion Pipeline**
    - Process and embed large document collection
    - Implement batch processing for efficiency
    - Handle duplicate detection and updates
    - Add metadata management
 
-2. **Search Implementation** (20 points)
+2. **Search Implementation**
    - Build efficient similarity search
    - Add filtering and faceted search
    - Implement pagination and result ranking
    - Optimize query performance
 
-3. **API Development** (10 points)
+3. **API Development**
    - Create REST API for search operations
    - Add authentication and rate limiting
    - Include comprehensive error handling
    - Document API endpoints
 
-### Part 3: Advanced Features (25 points)
+### Part 3: Advanced Features
 **Implement production-ready enhancements**
 
 Choose two of the following:
-1. **Multi-modal Search** (15 points)
+1. **Multi-modal Search**
    - Support text and image embeddings
    - Cross-modal similarity search
    - Unified ranking system
 
-2. **Real-time Updates** (15 points)
+2. **Real-time Updates**
    - Live index updates
    - Change detection and synchronization
    - Minimal downtime deployment
 
-3. **Hybrid Search** (15 points)
+3. **Hybrid Search**
    - Combine vector and keyword search
    - Intelligent result fusion
    - Configurable ranking weights
 
-4. **Monitoring Dashboard** (10 points)
+4. **Monitoring Dashboard**
    - Query analytics and performance metrics
    - System health monitoring
    - Usage patterns analysis
@@ -88,13 +87,7 @@ Choose two of the following:
    - Security considerations
    - Future enhancement roadmap
 
-## Evaluation Criteria
-- **Technical Implementation (40%):** Functionality and performance
-- **System Design (25%):** Scalability and architecture
-- **Analysis Quality (20%):** Comparison insights and recommendations
-- **Documentation (15%):** Code quality and explanations
-
-## Bonus Challenges (5 points each)
+## Optional Challenges
 - Implement vector database clustering
 - Add machine learning-based query optimization
 - Create custom embedding models

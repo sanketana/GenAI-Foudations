@@ -15,16 +15,13 @@
 
 2. **"UI/UX Design for Data Science"** - Design principles for technical applications
 
-## Installation Requirements
-```bash
-pip install streamlit
-pip install pandas
-pip install plotly
-```
 
 ## Videos to Watch
 1. **"Streamlit Tutorial for Beginners"** - (45 minutes)
 2. **"Building AI Apps with Streamlit"** - (30 minutes)
+3. **"Streamlit: The Fastest Way To Build Python Apps?"** - https://youtu.be/D0D4Pa22iG0?si=WCJT6rNma923gTiE
+   - In-depth introduction to Streamlit demonstrating how to quickly build and deploy interactive Python applications without prior web development experience
+
 
 ## Practice Exercises
 1. Install Streamlit and run the hello world example

@@ -1,11 +1,10 @@
-# Week 09: Homework Assignment
+# Week 09: Voluntary Assignment
 
 ## Assignment: AI Agent with External Tools
 
-### Part 1: Custom Tool Development (35 points)
-**Deadline:** Before Week 10 class
+### Part 1: Custom Tool Development
 
-1. **Core Tool Library** (20 points)
+1. **Core Tool Library**
    - Implement 5+ custom tools with different capabilities:
      - Data retrieval (APIs, web scraping, databases)
      - File processing (CSV, PDF, image analysis)
@@ -13,22 +12,22 @@
      - Calculations (mathematical, financial, statistical)
      - Web interaction (search, content extraction)
 
-2. **Tool Framework** (15 points)
+2. **Tool Framework**
    - Create reusable tool base classes
    - Implement proper error handling and validation
    - Add logging and performance monitoring
    - Support async operations and rate limiting
 
-### Part 2: Intelligent Agent Implementation (40 points)
+### Part 2: Intelligent Agent Implementation
 **Build an AI agent that can reason and act with tools**
 
-1. **Agent Architecture** (20 points)
+1. **Agent Architecture**
    - Implement ReAct or similar reasoning pattern
    - Add tool selection and execution logic
    - Support multi-step planning and execution
    - Include fallback and error recovery mechanisms
 
-2. **Use Case Implementation** (20 points)
+2. **Use Case Implementation**
    Choose one specialized agent type:
 
    **Option A: Research Assistant Agent**
@@ -49,16 +48,16 @@
    - Task prioritization and tracking
    - Document creation and organization
 
-### Part 3: Advanced Integration and Testing (25 points)
+### Part 3: Advanced Integration and Testing
 **Production-ready features and comprehensive evaluation**
 
-1. **Integration Features** (15 points)
+1. **Integration Features**
    - Streamlit interface for agent interaction
    - Real-time execution tracking and feedback
    - Tool usage analytics and optimization
    - Human-in-the-loop intervention capabilities
 
-2. **Testing and Evaluation** (10 points)
+2. **Testing and Evaluation**
    - Comprehensive test suite for tools and agents
    - Performance benchmarking and optimization
    - Error handling and edge case testing
@@ -71,7 +70,7 @@
 - Async processing for better performance
 - Tool usage monitoring and analytics
 
-## Advanced Features (Bonus - 5 points each)
+## Advanced Features
 - Multi-agent collaboration and communication
 - Custom domain-specific language for tool orchestration
 - Machine learning-based tool selection optimization
@@ -103,12 +102,6 @@
    - Performance metrics and usage analytics
    - User feedback and experience analysis
    - Comparison with baseline approaches
-
-## Evaluation Criteria
-- **Agent Intelligence (30%):** Reasoning, planning, and decision-making capabilities
-- **Tool Integration (25%):** Quality, reliability, and usefulness of custom tools
-- **System Design (25%):** Architecture, scalability, and maintainability
-- **User Experience (20%):** Interface design, usability, and functionality
 
 ## Tool Categories to Implement
 1. **Information Retrieval Tools**
@@ -152,11 +145,4 @@
 4. Design for maintainability and extensibility
 5. Prioritize user experience and clear feedback
 6. Monitor performance and optimize bottlenecks
-7. Document design decisions and trade-offs
-
-## Submission Guidelines
-- Submit via GitHub repository with clear structure
-- Include live demo video showcasing agent capabilities (5-7 minutes)
-- Provide comprehensive documentation and examples
-- Submit technical analysis and evaluation report
-- Include reflection on challenges and lessons learned 
+7. Document design decisions and trade-offs 

@@ -1,4 +1,17 @@
 import streamlit as st
+from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
+
+client = OpenAI()
+
+def get_response(msg):
+    completion = client.chat.completions.create(
+        model="gpt-4",
+        messages=msg
+    )
+    rsp = completion.choices[0].message.content
+    return rsp
 
 st.set_page_config(page_title="Chatbot", page_icon="💬")
 st.title("My first Streamlit App")
@@ -23,7 +36,7 @@ if prompt:
     with st.chat_message("user"):
         st.markdown(prompt)
 
-    bot_reply = f"Echo: {prompt}"
+    bot_reply = get_response(st.session_state.messages)
 
     st.session_state.messages.append({"role": "assistant" , "content": bot_reply})
     with st.chat_message("assistant"):

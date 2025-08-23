@@ -79,3 +79,16 @@
 ### Homework
 - Try this super short code-along Streamlit tutorial on Youtube
 - https://youtu.be/D0D4Pa22iG0?si=WCJT6rNma923gTiE
+
+---
+
+## Week 6 - Streamlit Chatbot (23-August)
+
+### Topics Covered
+- Streamlit + OpenAI Integration
+- Git and Github Concepts
+- Deployment on Streamlit Community Server
+
+### Homework
+- Complete the rest of the ChatBot features including Side navbar, Model selector, Temperature Selector, Export and Clear chat
+- Link: https://github.com/sanketana/GenAI-Foudations/tree/main/Week03_Streamlit_UI/code

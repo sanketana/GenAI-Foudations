@@ -47,6 +47,12 @@
    - Community-driven examples
    - URL: https://promptbase.com/
 
+3. **Anthropic's Interactive Prompt Engineering Tutorial**
+   - Comprehensive 9-chapter course with hands-on exercises
+   - Covers basic structure, common failure modes, and advanced techniques
+   - Includes interactive playgrounds for experimentation
+   - URL: https://github.com/anthropics/prompt-eng-interactive-tutorial
+
 ## Preparation Exercises
 1. Create 5 different prompts for the same task
 2. Test zero-shot vs few-shot prompting

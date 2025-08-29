@@ -21,9 +21,12 @@
 
 ## Mathematical Concepts
 - Vector spaces and dimensions
+- Dot product
 - Cosine similarity calculation
 - Euclidean distance
 - Dimensionality reduction (t-SNE, PCA)
+- Weights
+- TF-IDF
 
 ## Common Applications
 - Semantic search engines
@@ -37,3 +40,5 @@
 - Storing and retrieving embeddings
 - Optimizing for performance
 - Handling large datasets 
+
+

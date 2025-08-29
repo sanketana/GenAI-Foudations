@@ -7,6 +7,9 @@
 2. **"Vector Similarity and Distance Metrics"** 
    - Mathematical foundations of similarity measures
 
+3. **"Chapter 6: RAG and Agents"** - AI Engineering Book by Chip Huyen
+   - [Google Drive Link](https://drive.google.com/file/d/1zc3V5gjELvUn3W9WVZut7ulnpbml43gY/view?usp=drive_link)
+
 ## Recommended Reading
 1. **"Word2Vec Explained"** - Original paper concepts simplified
 2. **"Sentence Transformers Documentation"**
@@ -33,8 +36,18 @@ pip install plotly
 ```
 
 ## Videos to Watch
-1. **"Vector Embeddings Explained"** - 3Blue1Brown (20 minutes)
-2. **"Semantic Search with Embeddings"** - OpenAI (35 minutes)
+1. **"Vector Embeddings Explained"** - [YouTube Video](https://www.youtube.com/watch?v=wjZofJX0v4M) (relevant section at 12:25 min mark)
+
+## Additional Courses
+1. **"Retrieval Augmented Generation (RAG)"** - [Coursera Course](https://www.coursera.org/learn/retrieval-augmented-generation-rag) by DeepLearning.AI
+   - Theoretical foundation course covering RAG concepts, architecture, and system design
+   - 5 modules covering RAG overview, information retrieval, vector databases, LLMs, and production systems
+
+2. **"LangChain: Chat with Your Data"** - [DeepLearning.AI Short Course](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/)
+   - Basic introduction to RAG using LangChain (1 hour 8 minutes)
+   - Taught by Harrison Chase, creator of LangChain
+   - Covers document loading, splitting, vector stores, retrieval, and building chatbots
+
 
 ## Practice Exercises
 1. Calculate cosine similarity manually

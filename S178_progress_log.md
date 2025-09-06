@@ -92,3 +92,36 @@
 ### Homework
 - Complete the rest of the ChatBot features including Side navbar, Model selector, Temperature Selector, Export and Clear chat
 - Link: https://github.com/sanketana/GenAI-Foudations/tree/main/Week03_Streamlit_UI/code
+
+---
+
+## Week 7 - Vector Embeddings
+
+### Topics Covered
+- Recap of RAG
+- Embeddings in context of RAG
+- Vectors & Dot Product
+- Cosine Similarity
+- Similarity Search
+
+### Homework
+- Watch below 3Blue1Brown Video to get an excellent visual understanding of Embeddings
+- Sharing the whiteboard screenshot of the class explanations today
+
+---
+
+## Week 8 - Vector Operation and OpenAI Embeddings
+
+### Topics Covered
+- Vector recap
+- Creating vectors
+- Vector Multiplication
+- Dot Product
+- Cosine Similarity
+- Generating OpenAI Embedding
+- Performing Similarity between embeddings
+
+### Homework
+- Complete the Embedding notebook by yourself, link below
+- Homework Notebook: https://github.com/sanketana/GenAI-Foudations/blob/main/Week04_Embeddings/code/embeddings_comprehensive_tutorial.ipynb
+- Classwork Notebook: https://github.com/sanketana/GenAI-Foudations/blob/main/sandbox/embeddings/Embedding_classwork.ipynb

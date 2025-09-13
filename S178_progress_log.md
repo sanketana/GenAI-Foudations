@@ -125,3 +125,21 @@
 - Complete the Embedding notebook by yourself, link below
 - Homework Notebook: https://github.com/sanketana/GenAI-Foudations/blob/main/Week04_Embeddings/code/embeddings_comprehensive_tutorial.ipynb
 - Classwork Notebook: https://github.com/sanketana/GenAI-Foudations/blob/main/sandbox/embeddings/Embedding_classwork.ipynb
+
+---
+
+## Week 9 - Vector Databases (ChromaDb)
+
+### Concepts Covered
+- Need for Vector Databases
+- Creating Chroma db client
+- Create collections
+- Default embedding - Sentence Transformer
+- OpenAI Embedding
+- CRUD operations
+- Symantic Search
+- Metadata based Search
+- Keyword bases Search (.get function)
+
+### Homework
+- Complete the following notebook - https://github.com/sanketana/GenAI-Foudations/blob/main/Week05_Vector_Db/code/Vector_Db.ipynb

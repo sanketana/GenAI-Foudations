@@ -143,3 +143,21 @@
 
 ### Homework
 - Complete the following notebook - https://github.com/sanketana/GenAI-Foudations/blob/main/Week05_Vector_Db/code/Vector_Db.ipynb
+
+---
+
+## Week 10 - RAG Part 1
+
+### Concepts
+- Components of a RAG system
+- Langchain Loaders
+- Langchain Document model
+- Langchain community package
+- Pdf, Youtube loaders
+- Character vs Recursive Text splitters
+- Chaining Loaders and Splitters
+
+### Homework
+- Please practise and complete the exercises done in the session today
+  - Complete Exercise link: https://github.com/sanketana/GenAI-Foudations/blob/main/Week06_RAG_1/code/Chat_with_Data.ipynb
+  - Classwork Sandbox link: https://github.com/sanketana/GenAI-Foudations/tree/main/sandbox/RAG

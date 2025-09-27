@@ -161,3 +161,20 @@
 - Please practise and complete the exercises done in the session today
   - Complete Exercise link: https://github.com/sanketana/GenAI-Foudations/blob/main/Week06_RAG_1/code/Chat_with_Data.ipynb
   - Classwork Sandbox link: https://github.com/sanketana/GenAI-Foudations/tree/main/sandbox/RAG
+
+---
+
+## Week 11 - RAG Part 2
+
+### Concepts
+- Vectorstore
+- Embedding
+- Similarity Search
+- Metadata based Filtering
+- MMR Search (Maximal Marginal Relevance search)
+- Metadata Self Query Retriever
+
+### Homework
+- Please practise and complete the exercises done in the session today
+  - Complete Exercise link: https://github.com/sanketana/GenAI-Foudations/blob/main/Week06_RAG_1/code/Chat_with_Data.ipynb
+  - Classwork Sandbox link: https://github.com/sanketana/GenAI-Foudations/tree/main/sandbox/RAG

@@ -1,41 +1,23 @@
 # Week 06: Pre-Reading Materials
 
-## Required Reading
+## Recommended Reading
 1. **"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"** - Lewis et al. (2020)
    - Original RAG paper and methodology
+   - URL: https://arxiv.org/abs/2005.11401
 
-2. **"RAG vs Fine-tuning: Which is Better?"** - Comparison analysis
-   - When to use RAG vs model fine-tuning
-
-## Recommended Reading
-1. **LangChain RAG Documentation**
+2. **LangChain RAG Documentation**
    - Practical RAG implementation guide
-   - URL: https://python.langchain.com/docs/use_cases/question_answering
+   - URL: https://python.langchain.com/docs/tutorials/rag/
 
-2. **"Advanced RAG Techniques"** - Best practices and optimizations
+3. **"A Practitioners Guide to Retrieval Augmented Generation (RAG)"** - Cameron R. Wolfe
+   - Comprehensive overview of RAG from theory to implementation
+   - Covers data preprocessing, chunking strategies, search algorithms, and evaluation
+   - URL: https://cameronrwolfe.substack.com/p/a-practitioners-guide-to-retrieval
 
-3. **"Evaluating RAG Systems"** - Metrics and benchmarking approaches
-
-## Technical Prerequisites
-- Vector databases (Week 05)
-- Embeddings and similarity search (Week 04)
-- Language model APIs and prompt engineering
-- Document processing and chunking strategies
-
-## Code Preparation
-```bash
-pip install langchain
-pip install openai
-pip install chromadb
-pip install tiktoken
-pip install pypdf
-pip install python-docx
-```
-
-## Videos to Watch
-1. **"RAG Explained: From Theory to Practice"** - (50 minutes)
-2. **"Building Production RAG Systems"** - (40 minutes)
-3. **"Common RAG Pitfalls and Solutions"** - (30 minutes)
+4. **"OpenAI's Agentic RAG: Embedding-Free Document Retrieval"** - Tamanna
+   - Advanced RAG technique using OpenAI's agentic approach
+   - Explores embedding-free document retrieval methods
+   - URL: https://medium.com/@tam.tamanna18/openais-agentic-rag-embedding-free-document-retrieval-25c9a2368fa7
 
 ## Preparation Exercises
 1. Review vector database implementations
@@ -56,4 +38,3 @@ pip install python-docx
 3. How do you handle domain-specific knowledge?
 4. What are effective evaluation strategies?
 
-## Estimated Reading Time: 4-5 hours 

@@ -178,3 +178,24 @@
 - Please practise and complete the exercises done in the session today
   - Complete Exercise link: https://github.com/sanketana/GenAI-Foudations/blob/main/Week06_RAG_1/code/Chat_with_Data.ipynb
   - Classwork Sandbox link: https://github.com/sanketana/GenAI-Foudations/tree/main/sandbox/RAG
+
+---
+
+## Week 12 - RAG Session 3
+
+### Concepts
+- Recap of Loader, Splitter, Embedding & Storage
+- Question and Answering
+- RetrievalQA Chain
+- Retrieval Strategy Types
+- Stuff
+- Map Reduce
+- Refine / Map Rerank
+- Conversational Retrieval
+- Concept of Memory
+
+### Homework
+- We will take a break for 2 week to practise and absorb for concepts learned so far
+- Suggested Exercise - RAG Capstone Project
+- Suggested Topic# 1 - Chat with your WhatsApp Transcript
+- Suggested Topic# 2 - Meeting/Transcript Q&A

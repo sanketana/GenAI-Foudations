@@ -199,3 +199,21 @@
 - Suggested Exercise - RAG Capstone Project
 - Suggested Topic# 1 - Chat with your WhatsApp Transcript
 - Suggested Topic# 2 - Meeting/Transcript Q&A
+
+---
+
+## Week 13 - RAG Session 4 (final)
+
+### Concepts
+- Overview of LangChain v1 architecture
+- Creating agents in LangChain v1
+- Tools for creating RAG applications
+- Python decorator concept
+- LangSmith for tracing and debugging
+
+### Homework
+- Code and execute the RAG application covered in class
+- Exercise notebook: https://github.com/sanketana/GenAI-Foudations/blob/main/Week07_Rag_2/code/RAG_LangChain_v1.ipynb
+- Reference (Creating simple agent): https://docs.langchain.com/oss/python/langchain/quickstart
+- Reference (RAG): https://docs.langchain.com/oss/python/langchain/rag
+- Preview: Next week we will start MCP

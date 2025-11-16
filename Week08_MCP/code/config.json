@@ -1,0 +1,8 @@
+{
+    "servers": {
+      "local-info": {
+        "command": "python",
+        "args": ["/Users/abhinav/Documents/Sanketana/GenAI-Foundations/Week08_MCP/code/server.py"]
+      }
+    }
+  }

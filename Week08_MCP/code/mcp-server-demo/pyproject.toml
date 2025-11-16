@@ -1,0 +1,14 @@
+[project]
+name = "mcp-server-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.21.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "mcp-server-demo1",
+]

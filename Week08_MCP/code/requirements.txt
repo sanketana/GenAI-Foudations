@@ -1,0 +1,5 @@
+# Add MCP-related dependencies here
+openai
+langchain
+mcp
+psutil

@@ -1,0 +1,98 @@
+{
+  "mcpServers": {
+    "sqlite": {
+      "name": "sqlite",
+      "command": "uvx",
+      "args": [
+        "mcp-server-sqlite",
+        "--db-path",
+        "test.db"
+      ],
+      "env": {
+        "PATH": "/Users/abhinav/.cache/uv/archive-v0/RU34MSSJzcA8Zy9R0QnCB/bin:/Users/abhinav/.antigravity/antigravity/bin:/opt/homebrew/opt/python@3.11/libexec/bin:/Users/abhinav/anaconda3/condabin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+        "PYTHONWARNINGS": "ignore",
+        "LOG_LEVEL": "WARNING",
+        "CHUK_LOG_LEVEL": "WARNING",
+        "MCP_LOG_LEVEL": "WARNING"
+      }
+    },
+    "echo": {
+      "name": "echo",
+      "command": "uvx",
+      "args": [
+        "chuk-mcp-echo",
+        "stdio"
+      ],
+      "env": {
+        "PATH": "/Users/abhinav/.cache/uv/archive-v0/RU34MSSJzcA8Zy9R0QnCB/bin:/Users/abhinav/.antigravity/antigravity/bin:/opt/homebrew/opt/python@3.11/libexec/bin:/Users/abhinav/anaconda3/condabin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+        "PYTHONWARNINGS": "ignore",
+        "LOG_LEVEL": "WARNING",
+        "CHUK_LOG_LEVEL": "WARNING",
+        "MCP_LOG_LEVEL": "WARNING"
+      }
+    },
+    "notion": {
+      "name": "notion",
+      "env": {
+        "PATH": "/Users/abhinav/.cache/uv/archive-v0/RU34MSSJzcA8Zy9R0QnCB/bin:/Users/abhinav/.antigravity/antigravity/bin:/opt/homebrew/opt/python@3.11/libexec/bin:/Users/abhinav/anaconda3/condabin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+      },
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "cloudflare_workers": {
+      "name": "cloudflare_workers",
+      "env": {
+        "PATH": "/Users/abhinav/.cache/uv/archive-v0/RU34MSSJzcA8Zy9R0QnCB/bin:/Users/abhinav/.antigravity/antigravity/bin:/opt/homebrew/opt/python@3.11/libexec/bin:/Users/abhinav/anaconda3/condabin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+      },
+      "url": "https://bindings.mcp.cloudflare.com/mcp"
+    },
+    "brave_search": {
+      "name": "brave_search",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@brave/brave-search-mcp-server"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "${TOKEN:bearer:brave_search}",
+        "PATH": "/Users/abhinav/.cache/uv/archive-v0/RU34MSSJzcA8Zy9R0QnCB/bin:/Users/abhinav/.antigravity/antigravity/bin:/opt/homebrew/opt/python@3.11/libexec/bin:/Users/abhinav/anaconda3/condabin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+        "PYTHONWARNINGS": "ignore",
+        "LOG_LEVEL": "WARNING",
+        "CHUK_LOG_LEVEL": "WARNING",
+        "MCP_LOG_LEVEL": "WARNING"
+      }
+    },
+    "monday": {
+      "name": "monday",
+      "env": {
+        "PATH": "/Users/abhinav/.cache/uv/archive-v0/RU34MSSJzcA8Zy9R0QnCB/bin:/Users/abhinav/.antigravity/antigravity/bin:/opt/homebrew/opt/python@3.11/libexec/bin:/Users/abhinav/anaconda3/condabin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+      },
+      "url": "https://mcp.monday.com/mcp"
+    },
+    "playwright": {
+      "name": "playwright",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "env": {
+        "PATH": "/Users/abhinav/.cache/uv/archive-v0/RU34MSSJzcA8Zy9R0QnCB/bin:/Users/abhinav/.antigravity/antigravity/bin:/opt/homebrew/opt/python@3.11/libexec/bin:/Users/abhinav/anaconda3/condabin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+        "PYTHONWARNINGS": "ignore",
+        "LOG_LEVEL": "WARNING",
+        "CHUK_LOG_LEVEL": "WARNING",
+        "MCP_LOG_LEVEL": "WARNING"
+      }
+    },
+    "linkedin": {
+      "name": "linkedin",
+      "env": {
+        "PATH": "/Users/abhinav/.cache/uv/archive-v0/RU34MSSJzcA8Zy9R0QnCB/bin:/Users/abhinav/.antigravity/antigravity/bin:/opt/homebrew/opt/python@3.11/libexec/bin:/Users/abhinav/anaconda3/condabin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+      },
+      "url": "https://linkedin.chukai.io/mcp"
+    }
+  },
+  "defaultProvider": "openai",
+  "defaultModel": "gpt-4",
+  "theme": "default",
+  "verbose": true,
+  "confirmTools": true
+}

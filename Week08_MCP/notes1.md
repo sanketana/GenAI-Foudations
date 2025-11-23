@@ -1,5 +1,18 @@
 # Week 08: Model Context Protocol (MCP) - Instructor Notes
 ====
+- Create a simple MCP server demo by scratch
+- Install MCP server uv run mcp install server.py
+- UV Concepts
+- HTTP vs STDIO transport
+- UV vs UVX vs NPX
+- Note taking MCP server
+
+
+
+
+
+
+=====
 - Overview
 - Host, Client, Server
 - Example with Claude Code

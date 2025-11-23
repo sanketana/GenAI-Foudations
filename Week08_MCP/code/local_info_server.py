@@ -14,7 +14,3 @@ def get_system_info() -> dict:
         "memory_percent": psutil.virtual_memory().percent,
         "cwd": os.getcwd(),
     }
-
-
-if __name__ == "__main__":
-    server.run()
